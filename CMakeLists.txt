@@ -1,7 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.14)
 #设置cuda cc
 set(CMAKE_CUDA_ARCHITECTURES 80)
-set (CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)
 #使能cuda
 project(cuda_demo LANGUAGES CXX CUDA)
 if(CUDA_ENABLED)

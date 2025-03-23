@@ -1,6 +1,6 @@
 
 #include"kernels/kernels.hpp"
-#include<cuda.h>
+#include<cuda_runtime.h>
 #include<iostream>
 int main(){
     getProperty(0);
